@@ -1,6 +1,7 @@
 /**
  * HW4 Terry Speicher, 3331, id80609111
  */
+package HW4PlusBonus;
 
 import java.util.Scanner;
 

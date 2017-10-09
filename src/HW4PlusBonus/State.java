@@ -1,3 +1,5 @@
+package HW4PlusBonus;
+
 public interface State {
 
     public void entry();
