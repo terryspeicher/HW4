@@ -33,7 +33,7 @@ public class RoverStateDiagram {
         while (run) {
         	
         		//show menu
-            System.out.println("The Rover is in the following state: " + rover.getCurrentRoverState() + "\n");
+            System.out.println("\nThe Rover is in the following state: " + rover.getCurrentRoverState() + "\n");
             System.out.println("Please choose from the following actions:");
             System.out.println("1. Press Right Pedal Once");
             System.out.println("2. Press Right Pedal for 5 seconds");
@@ -51,6 +51,7 @@ public class RoverStateDiagram {
             //Get Input
             int n = scanner.nextInt();
             scanner.nextLine();
+            System.out.println("\n");
             //check for valid input
             if (n >= 0 && n <= 10) {
                 switch (n) {

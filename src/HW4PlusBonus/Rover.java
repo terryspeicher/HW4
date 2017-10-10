@@ -193,7 +193,7 @@ public class Rover {
                     break;
 
             }
-            
+
 /*            //just for output, to show what we did.
             System.out.println("\n\n***************************");
             System.out.println("Old Rover Status: " + oldRoverState);
