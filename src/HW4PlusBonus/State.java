@@ -1,11 +1,11 @@
 package HW4PlusBonus;
 
-public interface State {
+public abstract class State {
 
-    public void entry();
-    //onCreate()
-    public void doThis();
-    //main()
-    public void exit();
-    //onDestroy()
+    public void entry(){};
+
+    public void doThis(){};
+
+    public void exit(){};
+
 }

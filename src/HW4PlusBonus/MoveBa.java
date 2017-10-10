@@ -1,18 +1,26 @@
 package HW4PlusBonus;
 
-public class MoveBa implements State  {
+public class MoveBa extends State  {
+
+    public MoveBa(){
+        this.entry();
+        this.doThis();
+    }
+
     @Override
     public void entry() {
-        System.out.println("Entering MoveBa State");
+        System.out.println("Entry() MoveBa State");
     }
 
     @Override
     public void doThis() {
+        System.out.println("Do() MoveBa State");
 
     }
 
     @Override
     public void exit() {
+        System.out.println("Exit() MoveBa State");
 
     }
 }
