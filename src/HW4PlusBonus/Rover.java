@@ -1,10 +1,9 @@
 package HW4PlusBonus;
 
-import java.util.HashSet;
 import java.util.Hashtable;
 
 /**
- * HW4 Terry Speicher, 3331, id80609111
+ * HW4 Terry Speicher, 3331, id80609111.
  */
 
 public class Rover {
@@ -23,6 +22,7 @@ public class Rover {
 	RoverStates currentRoverState;
 
 
+    /** The pointer to current state object. */
     State pointerToCurrentStateObject;
 
     /** The rover transition table. */
@@ -91,7 +91,7 @@ public class Rover {
     /**
      * Update rover.  The class knows the current state of the rover - "this.currentRoverState"  The updateRover
      * method parameter is the event that may or may not trigger a transition to a new state.  The transition is
-     * is determined by finding the new state located in the transition Hastable at (<curState> + <roverEvent>)
+     * is determined by finding the new state located in the transition Hashtable at (<curState> + <roverEvent>)
      * The resulting state, if not null, is the new state that the rover is transitioned to. The State object pointer
      * is pointed to a new instance of the type of state being transitioned to.
      *
