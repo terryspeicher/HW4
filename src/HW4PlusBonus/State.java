@@ -1,6 +1,6 @@
 package HW4PlusBonus;
 
-// TODO: Auto-generated Javadoc
+//Test .git on github.com
 /**
  * The Class State.
  */
