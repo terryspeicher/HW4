@@ -25,11 +25,11 @@ public class Idle extends State{
     /* (non-Javadoc)
      * @see HW4PlusBonus.State#doThis()
      */
-    @Override
-    public void doThis() {
-        System.out.println("Do() Idle State");
-
-    }
+//    @Override
+//    public void doThis() {
+//        System.out.println("Do() Idle State");
+//
+//    }
 
     /* (non-Javadoc)
      * @see HW4PlusBonus.State#exit()
