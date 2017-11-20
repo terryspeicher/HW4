@@ -15,6 +15,7 @@ import org.junit.Test;
  * @author Terry Speicher
  * @version 1.1
  */
+@SuppressWarnings("unused")
 public class RoverTest {
 
 	/**

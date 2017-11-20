@@ -104,7 +104,8 @@ public class Rover {
      * @return the rover states the state the rover has transitioned to, or the same state if the
      * transition is not valid.
      */
-    public RoverStates updateRover(RoverEvents roverEvent) {
+    @SuppressWarnings("incomplete-switch")
+	public RoverStates updateRover(RoverEvents roverEvent) {
         RoverStates oldRoverState = this.currentRoverState;  //only needed for printout below
         //Set new state ad then update if not null
         RoverStates newRoverState = this.roverTransition.get(this.currentRoverState.toString() + roverEvent.toString());
