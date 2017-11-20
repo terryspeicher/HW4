@@ -1,8 +1,10 @@
 package HW4PlusBonus;
 
-// TODO: Auto-generated Javadoc
 /**
  * The Class MoveFc.
+ * 
+ * @author Terry Speicher
+ * @version 1.1
  */
 public class MoveFc extends State  {
 

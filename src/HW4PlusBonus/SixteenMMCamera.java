@@ -3,6 +3,9 @@ package HW4PlusBonus;
 // TODO: Auto-generated Javadoc
 /**
  * The Class SixteenMMCamera.
+ * 
+ * @author Terry Speicher
+ * @version 1.1
  */
 public class SixteenMMCamera extends State  {
 

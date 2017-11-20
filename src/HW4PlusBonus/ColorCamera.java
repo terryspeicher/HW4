@@ -2,6 +2,10 @@ package HW4PlusBonus;
 
 /**
  * The Class ColorCamera.
+ * 
+ *  
+ * @author Terry Speicher
+ * @version 1.1
  */
 public class ColorCamera extends State  {
 

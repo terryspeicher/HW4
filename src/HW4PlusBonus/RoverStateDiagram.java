@@ -5,20 +5,21 @@ package HW4PlusBonus;
 
 import java.util.Scanner;
 
-// TODO: Auto-generated Javadoc
-enum RoverStates {Idle, MoveFc, MoveFa, MoveBc, MoveBa, ColorCamera, SixteenMMCamera, DrillOff, DrillOn;}
-enum RoverEvents {RPOnce, RP5Sec, RPTwice, LPOnce, LP5Sec, B1, B1_5Sec, B1_10Sec, B1Twice, B2;}
 
 /**
- * The Class RoverStateDiagram.
+ * The Class RoverStateDiagram is the controller for the Rover project.  It creates the Rover object and 
+ * issues update commands to the Rover based on a simple looping menu system.
+ * 
+ * @author Terry Speicher
+ * @version 1.1
  */
 public class RoverStateDiagram {
 
 
     /**
-     * The main method.
+     * The main method for the controller
      *
-     * @param args the arguments
+     * @param args the arguments from the command line
      */
     public static void main(String[] args) {
     	

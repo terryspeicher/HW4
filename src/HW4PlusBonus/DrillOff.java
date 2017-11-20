@@ -1,8 +1,11 @@
 package HW4PlusBonus;
 
-// TODO: Auto-generated Javadoc
 /**
  * The Class DrillOff.
+ * 
+ *  
+ * @author Terry Speicher
+ * @version 1.1
  */
 public class DrillOff extends State {
 
