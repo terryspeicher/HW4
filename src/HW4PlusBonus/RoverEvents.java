@@ -1,3 +1,39 @@
 package HW4PlusBonus;
 
-public enum RoverEvents {RPOnce, RP5Sec, RPTwice, LPOnce, LP5Sec, B1, B1_5Sec, B1_10Sec, B1Twice, B2;}
+// TODO: Auto-generated Javadoc
+/**
+ * The Enum RoverEvents.
+ */
+public enum RoverEvents {
+	
+	/** Press the Right Pedal Once.*/
+	RPOnce, 
+	
+	/** Press the Right Pedal for 5 Seconds. */
+	RP5Sec, 
+	
+	/** Press the Right Pedal Twice.*/
+	RPTwice, 
+	
+	/** Press the Left Pedal Once.*/
+	LPOnce, 
+	
+	/** Press the Left Pedal for 5 Seconds. */
+	LP5Sec, 
+	
+	/** Press Button 1. */
+	B1, 
+	
+	/** Press Button 1 for 5 Seconds. */
+	B1_5Sec, 
+	
+	/** Press Button 1 for 10 Seconds. */
+	B1_10Sec, 
+	
+	/** Press Button 1 Twice. */
+	B1Twice, 
+	
+	/** Press Button 2. */
+	B2;
+	
+	}
